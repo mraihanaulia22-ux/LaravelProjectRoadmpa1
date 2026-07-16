@@ -61,7 +61,7 @@
                                 <span class="px-2 py-1 text-xs font-semibold bg-green-200 text-green-800 rounded-full">Done</span>
                                 @endif
 
-                                <span class="text-gray-800 font-medium {{ $task->name }}"></span>
+                                <span class="text-gray-800 font-medium">{{ $task->name }}</span>
                             </div>
 
                             <div class="flex items-center space-x-2">
